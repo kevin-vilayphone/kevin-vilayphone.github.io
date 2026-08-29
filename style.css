@@ -380,7 +380,7 @@ dialog#lightbox::backdrop{ background:transparent; }
   .lb-inner{ padding:60px 16px; }
   .lb-prev{ left:6px; } .lb-next{ right:6px; }
   .lb-prev, .lb-next{ width:42px; height:42px; font-size:18px; }
-  .theme-toggle span{transform:none; }
+  .theme-toggle span{transform:translateY(+2px); }
   .trip-card{ height:240px; }
   .trip-label{ left:16px; right:16px; }
   .trip-label h2{ font-size:16px; }
