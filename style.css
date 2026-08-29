@@ -300,9 +300,11 @@ main{ max-width:var(--max); margin:0 auto; padding:0 clamp(20px,4vw,56px); }
   color:var(--accent); border-bottom:1px solid var(--accent);
   padding-bottom:2px;
 }
+
 @media (max-width:720px){
-  .about{ grid-template-columns:1fr; }
+  .about{ grid-template-columns:1fr; gap:28px; }
   .about-photo{ max-width:220px; }
+  .about-text{ transform:none; }
 }
 
 footer{
