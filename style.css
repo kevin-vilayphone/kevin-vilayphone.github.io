@@ -283,6 +283,7 @@ main{ max-width:var(--max); margin:0 auto; padding:0 clamp(20px,4vw,56px); }
   font-family:'Special Elite', monospace;
   font-size:clamp(50px,3.4vw,38px); margin:0 0 26px; 
 }
+
 .about-photo{
   width:100%; aspect-ratio:3/4;
   overflow:hidden;
@@ -299,12 +300,6 @@ main{ max-width:var(--max); margin:0 auto; padding:0 clamp(20px,4vw,56px); }
   font-family:'Courier Prime', monospace; font-size:16px;
   color:var(--accent); border-bottom:1px solid var(--accent);
   padding-bottom:2px;
-}
-
-@media (max-width:720px){
-  .about{ grid-template-columns:1fr; gap:28px; }
-  .about-photo{ max-width:220px; }
-  .about-text{ transform:none; }
 }
 
 footer{
@@ -351,7 +346,7 @@ dialog#lightbox::backdrop{ background:transparent; }
 .lb-prev, .lb-next{ top:50%; transform:translateY(-50%); width:52px; height:52px; font-size:22px; }
 .lb-prev{ left:16px; } .lb-next{ right:16px; }
 .lb-prev:hover, .lb-next:hover, .lb-close:hover{ border-color:var(--accent); color:var(--accent); }
-@media (max-width:600px){
+@media (max-width:720px){
   .wordmark{ font-size:19px; }
   .back-link{ font-size:13px; letter-spacing:0.08em; }
   .main-nav{
@@ -385,8 +380,13 @@ dialog#lightbox::backdrop{ background:transparent; }
   .lb-inner{ padding:60px 16px; }
   .lb-prev{ left:6px; } .lb-next{ right:6px; }
   .lb-prev, .lb-next{ width:42px; height:42px; font-size:18px; }
+  .theme-toggle span{transform:translateY(-2px); }
   .trip-card{ height:240px; }
   .trip-label{ left:16px; right:16px; }
   .trip-label h2{ font-size:16px; }
+  .about{ grid-template-columns:1fr; gap:28px; }
+  .about-photo{ max-width:220px; }
+  .about-text{ transform:none; }
+  .about-title{font-size:clamp(32px,3.4vw,38px); margin:0 0 0px; }
   .gallery{ grid-template-columns:repeat(2, 1fr); gap:10px; }
 }
