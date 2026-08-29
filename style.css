@@ -381,7 +381,7 @@ dialog#lightbox::backdrop{ background:transparent; }
   .lb-prev{ left:6px; } .lb-next{ right:6px; }
   .lb-prev, .lb-next{ width:42px; height:42px; font-size:18px; }
   .theme-toggle:hover{ border-color:var(--accent); color:var(--accent); }
-  .theme-toggle span{ display:block; line-height:1; transform:translateY(+2px); }
+  .theme-toggle span{ display:block; line-height:1; transform:translateY(-2px); }
   .theme-toggle .icon{ display:block; }
   .trip-card{ height:240px; }
   .trip-label{ left:16px; right:16px; }
