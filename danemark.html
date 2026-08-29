@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<script>(function(){try{var t=localStorage.getItem("kv-theme");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Denmark 2025 — Kévin Vilayphone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=block" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="wordmark">Kévin Vilayphone</a>
+  <div class="header-right">
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html#world" class="back-link">World</a>
+      <a href="index.html#france" class="back-link">France</a>
+      <a href="index.html#other" class="back-link">Other</a>
+      <a href="index.html#about" class="back-link">About</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">☰</button>
+    <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre fond clair et fond sombre">
+      <span class="icon">●</span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="trip-header">
+    <h1>Denmark - 2025</h1>
+    <span class="eyebrow">Copenhagen</span>
+    <p>Wandering through the capital of Denmark, I could not be more amazed by how elegantly the city was built, for the well-being of both its people and its environment. This series tries to share a little bit of the "hygge" mood of Copenhagen.</p>
+  </section>
+
+  <div class="gallery">
+    <figure class="landscape" data-series="Denmark - 2025"><img src="danemark-2025/LQ/1.webp" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/2.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/3.jpg" alt=""></figure>
+    <figure class="landscape" data-series="Denmark - 2025"><img src="danemark-2025/LQ/4.jpg" alt=""></figure>
+    <figure class="landscape" data-series="Denmark - 2025"><img src="danemark-2025/LQ/5.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/6.jpg" alt=""></figure>
+    <figure class="landscape" data-series="Denmark - 2025"><img src="danemark-2025/LQ/7.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/8.jpg" alt=""></figure>
+    <figure class="landscape" data-series="Denmark - 2025"><img src="danemark-2025/LQ/9.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/10.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/11.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/12.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/13.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/14.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/15.jpg" alt=""></figure>
+    <figure class="landscape" data-series="Denmark - 2025"><img src="danemark-2025/LQ/16.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/17.jpg" alt=""></figure>
+    <figure class="landscape" data-series="Denmark - 2025"><img src="danemark-2025/LQ/18.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/19.jpg" alt=""></figure>
+    <figure class="landscape" data-series="Denmark - 2025"><img src="danemark-2025/LQ/20.jpg" alt=""></figure>
+    <figure class="landscape" data-series="Denmark - 2025"><img src="danemark-2025/LQ/21.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/22.jpg" alt=""></figure>
+    <figure class="landscape" data-series="Denmark - 2025"><img src="danemark-2025/LQ/23.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/24.jpg" alt=""></figure>
+    <figure class="portrait" data-series="Denmark - 2025"><img src="danemark-2025/LQ/25.jpg" alt=""></figure>
+  </div>
+
+  <nav class="trip-footer-nav">
+    <a href="suede.html">← Sweden - 2025</a>
+        <a href="croatie.html" style="float:right">Croatia - 2026 →</a>
+  </nav>
+</main>
+
+<footer>
+  <span>© 2026 Kévin Vilayphone</span>
+  <span class="mono">Travel photography</span>
+</footer>
+
+<dialog id="lightbox">
+  <div class="lb-inner">
+    <button class="lb-close" id="lbClose" aria-label="Fermer">✕</button>
+    <button class="lb-prev" id="lbPrev" aria-label="Précédent">‹</button>
+    <img id="lbImg" src="" alt="">
+    <button class="lb-next" id="lbNext" aria-label="Suivant">›</button>
+    <div class="lb-caption"><span id="lbSeries" class="accent"></span><span class="lb-sep">·</span><span id="lbCounter" class="mono"></span></div>
+  </div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
