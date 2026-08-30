@@ -378,7 +378,7 @@ dialog#lightbox::backdrop{ background:transparent; }
   footer{ font-size:10px; }
   .lb-caption{ font-size:11px; }
   .lb-inner{ padding:60px 16px; }
-  .lb-prev{ left:6px; } .lb-next{ right:6px; }
+  .lb-prev{ left:8px; } .lb-next{ right:8px; }
   .lb-prev, .lb-next{ width:42px; height:42px; font-size:18px; }
   .theme-toggle:hover{ border-color:var(--accent); color:var(--accent); }
   .theme-toggle span{ display:block; line-height:1; transform:translateY(0px); }
@@ -391,4 +391,6 @@ dialog#lightbox::backdrop{ background:transparent; }
   .about-text{ transform:none; }
   .about-title{font-size:clamp(32px,3.4vw,38px); margin:0 0 0px; }
   .gallery{ grid-template-columns:repeat(2, 1fr); gap:10px; }
+  .lb-prev, .lb-next{ width:42px; height:42px; font-size:18px; background:none; border:none; color:#f3f0e8; text-shadow:0 1px 5px rgba(0,0,0,0.85), 0 0 14px rgba(0,0,0,0.6); }
+  .lb-prev:hover, .lb-next:hover{ color:#f3f0e8; border-color:transparent; opacity:0.7; }
 }
