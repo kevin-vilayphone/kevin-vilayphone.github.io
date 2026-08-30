@@ -79,7 +79,7 @@ if (lightbox) {
   function render(){
     const fig = currentSet[currentIndex];
     const img = fig.querySelector('img');
-    lbImg.src = img.src.replace(/\/\d+\/\d+$/, '/1400/1000');
+    lbImg.src = img.src;
     lbImg.alt = img.alt;
     lbSeries.textContent = fig.dataset.series;
     if (lbCounter) lbCounter.textContent = (currentIndex + 1) + ' / ' + currentSet.length;
